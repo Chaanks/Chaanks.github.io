@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>TTS</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid fs-1 ">
+          <a class="navbar-brand fs-1" href="#">
+            <img src="images/au.png" alt="" width="60" height="60" class="d-inline-block">
+            <img src="images/lia.jpg" alt="" width="60" height="60" class="d-inline-block">
+            Text to Speech Demo
+          </a>
+        </div>
+    </nav>
+
+    <hr class="bg-danger border-3 border-top border-danger">
+
+    <div class="container">
+        <p class="fs-5">
+            This page presents audio samples of a text-to-speech model using Conditional Variational Autoencoder with Adversarial Learning. <br>
+            <a href="https://arxiv.org/pdf/2106.06103.pdf"><b class="fs-6">Paper link</b></a>
+        </p>
+    </div>
+    <br>
+    <div class="container">
+        <h3>Short utterances ⌛</h3>
+
+        <br>
+
+        <p class="fs-6">📝 Hello, how are you today ?</p>
+        <audio controls>
+            <source src="wavs/vits_hello.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <p class="fs-6">📝 Welcome to Avignon university !</p>
+        <audio controls>
+            <source src="wavs/vits_avignon.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <p class="fs-6">📝 The hand sanitizer was actually clear glue.</p>
+        <audio controls>
+            <source src="wavs/vits_short_2.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <p class="fs-6">📝 Happiness can be found in the depths of chocolate pudding.</p>
+        <audio controls>
+            <source src="wavs/vits_short_3.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <h3>Hard utterances ⚙️</h3>
+
+        <br>
+
+        <p class="fs-6">📝 She sells sea-shells on the sea-shore. The shells she sells are sea-shells I'm sure.</p>
+        <audio controls>
+            <source src="wavs/vits_twisters.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <p class="fs-6">📝 Read rhymes with lead, and read rhymes with lead, but read and lead don’t rhyme, and neither do read and lead.</p>
+        <audio controls>
+            <source src="wavs/vits_hard_2.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <h3>Prosody Changes ✨</h3>
+
+        <br>
+
+        <p class="fs-6">📝 There are few things better in life than a slice of pie.</p>
+        <audio controls>
+            <source src="wavs/vits_prosody_1.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <p class="fs-6">📝 Are there things better in life than a slice of pie ?</p>
+        <audio controls>
+            <source src="wavs/vits_prosody_3.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <h3>Long Utterance 📖</h3>
+
+        <br>
+
+        <p class="fs-6">📝 It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.</p>
+        <audio controls>
+            <source src="wavs/vits_long.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
