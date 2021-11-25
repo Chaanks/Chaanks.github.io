@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>TTS</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-light bg-light py-0">
+        <div class="container-fluid fs-1 ">
+          <a class="navbar-brand fs-1" href="#">
+            <img src="images/au.png" alt="" width="60" height="60" class="d-inline-block rounded">
+            <img src="images/lia.jpg" alt="" width="60" height="60" class="d-inline-block rounded">
+             -  DW-BRASIL TTS DEMO - 
+            <img src="images/selma.png" alt="" width="160" height="60" class="d-inline-block rounded float-right">
+          </a>
+        </div>
+    </nav>
+
+    <hr class="bg-danger border-3 border-top border-danger">
+
+    <div class="container">
+        <p class="fs-5">
+            This page presents audio samples of a text-to-speech pipeline using Tacotron2 and WaveRNN trained on brasil noticias scripts<br><br>
+        </p>
+    </div>
+
+    <div class="container">
+        <h3>Speakers</h3>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Training utterances</th>
+                <th scope="col">Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Roberto</td>
+                <td>3510</td>
+                <td>8.5</td>
+              </tr>
+
+              <tr>
+                <th scope="row">2</th>
+                <td>Alexandre</td>
+                <td>3348</td>
+                <td>7.7</td>
+              </tr>
+
+              <tr>
+                <th scope="row">3</th>
+                <td>Philip</td>
+                <td>2759</td>
+                <td>6.0</td>
+              </tr>
+
+              <tr>
+                <th scope="row">4</th>
+                <td>Leila</td>
+                <td>2077</td>
+                <td>5.1</td>
+              </tr>
+
+              <tr>
+                <th scope="row">5</th>
+                <td>Bruno</td>
+                <td>679</td>
+                <td>1.7</td>
+              </tr>
+
+              <tr>
+                <th scope="row">6</th>
+                <td>Marcio</td>
+                <td>554</td>
+                <td>1.3</td>
+              </tr>
+                
+              <tr>
+                <th scope="row">7</th>
+                <td>Clarissa</td>
+                <td>357</td>
+                <td>0.9</td>
+              </tr>
+
+              <tr>
+                <th scope="row">8</th>
+                <td>Renate</td>
+                <td>295</td>
+                <td>0.7</td>
+              </tr>
+                
+
+            </tbody>
+          </table>
+    </div>
+
+    <br>
+    <div class="container">
+
+      <div class="text-center">
+        <h3 class="fs-6">📝 Olá, hoje é quinta-feira, três de setembro de 2020.</h3>
+        <br>
+        <p class="fs-6">Ref: Boletim de Notícias (03/09/20) - Leila </p>
+        <audio controls>
+            <source src="wavs/tts/ref/DW-2020-09-03-e1-0001.wav" type="audio/wav">
+          Your browser does not support the audio element.
+        </audio>
+        <br>
+        <table class="table table-bordered table-striped">
+            <tbody>
+              <tr>
+                <td>
+                    <p class="fs-6">Roberto</p>
+                    <audio controls>
+                        <source src="wavs/tts/7/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+
+                <td>
+                    <p class="fs-6">Alexandre</p>
+                    <audio controls>
+                        <source src="wavs/tts/0/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <p class="fs-6">Philip</p>
+                    <audio controls>
+                        <source src="wavs/tts/5/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+
+                <td>
+                    <p class="fs-6">Leila</p>
+                    <audio controls>
+                        <source src="wavs/tts/3/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <p class="fs-6">Bruno</p>
+                    <audio controls>
+                        <source src="wavs/tts/1/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+
+                <td>
+                    <p class="fs-6">Marcio</p>
+                    <audio controls>
+                        <source src="wavs/tts/4/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <p class="fs-6">Clarissa</p>
+                    <audio controls>
+                        <source src="wavs/tts/2/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+
+                <td>
+                    <p class="fs-6">Renate</p>
+                    <audio controls>
+                        <source src="wavs/tts/6/2020-09-03-e1-0.wav" type="audio/wav">
+                      Your browser does not support the audio element.
+                    </audio>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <br><br>
+
+        <div class="text-center">
+            <h3 class="fs-6">📝 Sete integrantes da força-tarefa da Lava Jato apresentaram na quatra-feira ao procurador-geral da República, Augusto Aras, um pedido coletivo de desligamento dos trabalhos da operação.</h3>
+            <br>
+            <p class="fs-6">Ref: Boletim de Notícias (03/09/20) - Leila </p>
+            <audio controls>
+                <source src="wavs/tts/ref/DW-2020-09-03-e1-0007.wav" type="audio/wav">
+              Your browser does not support the audio element.
+            </audio>
+            <br>
+            <table class="table table-bordered table-striped">
+                <tbody>
+                  <tr>
+                    <td>
+                        <p class="fs-6">Roberto</p>
+                        <audio controls>
+                            <source src="wavs/tts/7/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+    
+                    <td>
+                        <p class="fs-6">Alexandre</p>
+                        <audio controls>
+                            <source src="wavs/tts/0/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+                  </tr>
+    
+                  <tr>
+                    <td>
+                        <p class="fs-6">Philip</p>
+                        <audio controls>
+                            <source src="wavs/tts/5/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+    
+                    <td>
+                        <p class="fs-6">Leila</p>
+                        <audio controls>
+                            <source src="wavs/tts/3/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+                  </tr>
+    
+                  <tr>
+                    <td>
+                        <p class="fs-6">Bruno</p>
+                        <audio controls>
+                            <source src="wavs/tts/1/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+    
+                    <td>
+                        <p class="fs-6">Marcio</p>
+                        <audio controls>
+                            <source src="wavs/tts/4/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+                  </tr>
+    
+                  <tr>
+                    <td>
+                        <p class="fs-6">Clarissa</p>
+                        <audio controls>
+                            <source src="wavs/tts/2/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+    
+                    <td>
+                        <p class="fs-6">Renate</p>
+                        <audio controls>
+                            <source src="wavs/tts/6/2020-09-03-e1-6.wav" type="audio/wav">
+                          Your browser does not support the audio element.
+                        </audio>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <br><br>
+
+            <div class="text-center">
+                <h3 class="fs-6">📝 Ele é investigado por irregularidades e desvios de recursos da área de saúde durante a pandemia de covid-19.</h3>
+                <br>
+                <p class="fs-6">Ref: Boletim de Notícias (03/09/20) - Leila </p>
+                <audio controls>
+                    <source src="wavs/tts/ref/DW-2020-09-03-e1-0013.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+                </audio>
+                <br>
+                <table class="table table-bordered table-striped">
+                    <tbody>
+                      <tr>
+                        <td>
+                            <p class="fs-6">Roberto</p>
+                            <audio controls>
+                                <source src="wavs/tts/7/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+        
+                        <td>
+                            <p class="fs-6">Alexandre</p>
+                            <audio controls>
+                                <source src="wavs/tts/0/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                      </tr>
+        
+                      <tr>
+                        <td>
+                            <p class="fs-6">Philip</p>
+                            <audio controls>
+                                <source src="wavs/tts/5/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+        
+                        <td>
+                            <p class="fs-6">Leila</p>
+                            <audio controls>
+                                <source src="wavs/tts/3/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                      </tr>
+        
+                      <tr>
+                        <td>
+                            <p class="fs-6">Bruno</p>
+                            <audio controls>
+                                <source src="wavs/tts/1/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+        
+                        <td>
+                            <p class="fs-6">Marcio</p>
+                            <audio controls>
+                                <source src="wavs/tts/4/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                      </tr>
+        
+                      <tr>
+                        <td>
+                            <p class="fs-6">Clarissa</p>
+                            <audio controls>
+                                <source src="wavs/tts/2/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+        
+                        <td>
+                            <p class="fs-6">Renate</p>
+                            <audio controls>
+                                <source src="wavs/tts/6/2020-09-03-e1-12.wav" type="audio/wav">
+                              Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
