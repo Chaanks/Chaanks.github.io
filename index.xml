@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Jarod Duret</title>
+    <link>http://example.org/</link>
+    <description>Recent content in About on Jarod Duret</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>About Me Currently working on my doctoral thesis, my main interests include speech synthesis, speech translation, speaker identification and emotion recognition. From september 2021, I started a PhD thesis on expressive speech translation at the University of Avignon and the Laboratoire Informatique d&amp;rsquo;Avignon (LIA) under the supervision of Prof. Esteve Yannick and Assoc. Prof. Parcollet Titouan. The thesis is part of the SELMA consortium funded by the European Union’s Horizon 2020 research and innovation programme.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description> Email: jarod8405@gmail.com Social Github Linkedin Google Scholar </description>
+    </item>
+    
+  </channel>
+</rss>
